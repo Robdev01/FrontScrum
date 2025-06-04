@@ -1,8 +1,8 @@
-#  Scrum Task Manager - Frontend React + API Flask
+# 🧠 Scrum Task Manager - Frontend React + API Flask
 
 Este projeto é uma aplicação de gerenciamento de tarefas estilo Scrum, com frontend em React + TypeScript e backend em Flask. A versão atual utiliza uma API real para persistência dos dados, substituindo o armazenamento local (`localStorage`).
 
-##  Funcionalidades
+## 🚀 Funcionalidades
 
 - Autenticação de usuários (login e registro)
 - Visualização e gerenciamento do Product Backlog
@@ -11,7 +11,7 @@ Este projeto é uma aplicação de gerenciamento de tarefas estilo Scrum, com fr
 - Integração completa com API Flask
 - Feedback visual com spinners, estados de loading e notificações (toasts)
 
-##  Tecnologias Utilizadas
+## 🧩 Tecnologias Utilizadas
 
 ### Frontend
 - React
@@ -23,11 +23,11 @@ Este projeto é uma aplicação de gerenciamento de tarefas estilo Scrum, com fr
 ### Backend (Repositório separado)
 - Flask
 - SQLite
-
+- JWT (para autenticação)
 
 ---
 
-##  Estrutura de Diretórios Relevante
+## 📁 Estrutura de Diretórios Relevante
 
 ```bash
 src/
@@ -39,7 +39,7 @@ src/
 │   └── Login.tsx
 ├── services/
 │   └── api.ts
- Integração com a API
+🔗 Integração com a API
 A comunicação com o backend Flask está centralizada no serviço ApiService.
 
 Endpoints utilizados:
@@ -55,7 +55,7 @@ PUT /tasks/:id - Atualização de tarefas
 
 DELETE /tasks/:id - Exclusão de tarefas
 
- Fluxo de Dados
+🔄 Fluxo de Dados
 text
 Copiar
 Editar
@@ -74,18 +74,18 @@ Contexto recarrega as tarefas da API
 
 UI atualiza automaticamente
 
- Destaques da Implementação
- Sincronização automática: após qualquer operação de criação, atualização ou exclusão, as tarefas são recarregadas da API
+💡 Destaques da Implementação
+🔄 Sincronização automática: após qualquer operação de criação, atualização ou exclusão, as tarefas são recarregadas da API
 
- Sessão persistente: token salvo no localStorage
+🔒 Sessão persistente: token salvo no localStorage
 
- Conversão de dados: os dados da API são adaptados para o modelo interno do frontend
+🔁 Conversão de dados: os dados da API são adaptados para o modelo interno do frontend
 
- UX aprimorada: spinners, botões desabilitados durante requisições, mensagens de erro/sucesso
+🎯 UX aprimorada: spinners, botões desabilitados durante requisições, mensagens de erro/sucesso
 
- Separação de responsabilidades: API isolada, contexto de estado global e componentes modulares
+🧼 Separação de responsabilidades: API isolada, contexto de estado global e componentes modulares
 
- Como Rodar Localmente
+⚙️ Como Rodar Localmente
 Clone este repositório:
 
 bash
@@ -111,18 +111,25 @@ bash
 Copiar
 Editar
 npm run dev
- To-Do / Melhorias Futuras
+🧪 To-Do / Melhorias Futuras
 Implementar autenticação via JWT no frontend (se ainda não estiver finalizado)
 
 Adicionar testes unitários e de integração
 
 Melhorar a gestão de sprints (data de início/fim)
 
-Dark mode 
+Dark mode ✨
 
- Licença
+📜 Licença
 Este projeto está sob a licença MIT.
 
- Autor
-Desenvolvido por Robson Calheira — sugestões, PRs e feedbacks são bem-vindos!
+🙋‍♂️ Autor
+Desenvolvido por Seu Nome — sugestões, PRs e feedbacks são bem-vindos!
 
+yaml
+Copiar
+Editar
+
+---
+
+Se quiser, posso personalizar com o nome do projeto, bibliotecas específicas que você u
