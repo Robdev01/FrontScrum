@@ -1,5 +1,5 @@
 
-const API_BASE_URL = 'https://backendscrun.onrender.com'; // Ajuste para a URL da sua API
+const API_BASE_URL = 'http://127.0.0.1:8080'; // Ajuste para a URL da sua API
 
 interface LoginRequest {
   email: string;
