@@ -1,4 +1,4 @@
-# 🧠 Scrum Task Manager - Frontend React + API Flask
+# Scrum Task Manager - Frontend React 
 
 Este projeto é uma aplicação de gerenciamento de tarefas estilo Scrum, com frontend em React + TypeScript e backend em Flask. A versão atual utiliza uma API real para persistência dos dados, substituindo o armazenamento local (`localStorage`).
 
