@@ -60,16 +60,23 @@ Clone este repositório:
 
 ´´´
 git clone https://github.com/Robdev01/FrontScrum
+
 cd FrontScrum
+
 Instale as dependências:
+
 npm install
+
 Inicie o servidor Flask separadamente (verifique a URL no api.ts):
 
 python app.py  # ou conforme o script definido
+
 Rode a aplicação React:
 
 npm run dev
-🧪 To-Do / Melhorias Futuras
+
+## 🧪 To-Do / Melhorias Futuras
+
 Implementar autenticação via JWT no frontend (se ainda não estiver finalizado)
 
 Adicionar testes unitários e de integração
