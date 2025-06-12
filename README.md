@@ -41,7 +41,7 @@ src/
 │   └── api.ts
 🔗 Integração com a API
 A comunicação com o backend Flask está centralizada no serviço ApiService.
-
+```
 Endpoints utilizados:
 POST /login - Autenticação de usuários
 
